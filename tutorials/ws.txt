@@ -1,0 +1,22 @@
+get result by userid and sub id
+method : get
+content-type : application/json
+url : http://localhost:8080/tutorials/result/get/{uId}/{subId}/
+
+
+get question by sub id
+method : get
+content-type : application/json
+url :http://localhost:8080/tutorials/question/get/{subId}/
+
+
+get tutorial by sub id and uerId
+method : get
+content-type : application/json
+url : http://localhost:8080/tutorials/tutorial/get/{userId}/{subId} 
+
+
+get calculate by sub id and uerId
+method : get
+content-type : application/json
+url : http://localhost:8080/tutorials/result/calculate/{userId}/{subId}
